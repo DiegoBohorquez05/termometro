@@ -1,3 +1,4 @@
+let boton = document.getElementById("boton1")
 let temperatura = document.getElementById("temperatura")
 let reset=document.getElementById("boton2")
 
@@ -15,6 +16,5 @@ let reiniciar=function(){
     temperatura.style.width=0
 }
 
-let boton = document.getElementById("boton1")
 boton.addEventListener('click',operacion)
 reset.addEventListener('click',reiniciar)
