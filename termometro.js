@@ -12,7 +12,7 @@ let operacion=function(){
 
 let reiniciar=function(){
     document.getElementById("faren").value=``
-    document.getElementById("celsius").value=``
+    document.getElementById("celsius").textContent=``
     temperatura.style.width=0
 }
 
