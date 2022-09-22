@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="terometro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Convertidor de temperatura</h1>
+        <div class="derecha">
+            <label id="texto1" for="">fahrenheit:</label><br>
+            <input type="number" id="faren" name="faren">
+        </div>
+        <div class="boton">
+            <button id="boton1">Convertir</button>
+        </div>
+        <div class="derecha2">
+            <p id="texto2">Celsius:<span id="celsius"></span></p>
+            <label class="cero" for="">0°</label>
+            <label class="cien" for="">100°</label>
+        </div>
+        <div class="termometro">
+            <div id="temperatura" class="temperatura"></div>
+        </div>
+    </div>
+    <script src="termometro.js"></script>
+</body>
+
+</html>
