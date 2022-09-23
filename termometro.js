@@ -4,7 +4,7 @@ let reset=document.getElementById("boton2")
 
 let operacion=function(){
     let value = document.getElementById("faren").value;
-    let calcular = (value-32)*5/9
+    let calcular = ((value-32)*5/9).toFixed(1)
     document.getElementById('celsius').textContent=calcular
     
     document.getElementById('temperatura').style.width=`${calcular}px`
